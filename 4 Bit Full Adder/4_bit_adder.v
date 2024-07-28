@@ -1,3 +1,13 @@
+//half adder module for 4 bit full adder
+module half_adder(a,b,c,sum,cout);
+    input a,b,c;
+    output cout,sum;
+	 assign sum=c^a^b;
+	 assign cout=a&&b||b&&c||c&&a;
+endmodule
+
+
+
 //Verilog module for Full adder
 module full_adder(x,y,cin,z,cout);
    input [3:0]x;
