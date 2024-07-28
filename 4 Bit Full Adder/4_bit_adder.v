@@ -1,4 +1,4 @@
-//half adder module for 4 bit full adder
+****//half adder module for 4 bit full adder
 module half_adder(a,b,c,sum,cout);
     input a,b,c;
     output cout,sum;
